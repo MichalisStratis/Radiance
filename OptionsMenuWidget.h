@@ -17,7 +17,7 @@ class URadianceSaveGame;
 
 //-----------------------------------------------------------------------------------------------------------------------------
 // Class Name			: UOptionsMenuWidget
-// Author				: Nikodem Hamrol
+// Author				: Michalis Stratis
 // Classes Inherited	: UUserWidget
 // Purpose				: This class is responsible for settings the avaliable options, such as volume and toggle subtitles.
 //----------------------------------------------------------------------------------------------------------------------------
@@ -28,7 +28,7 @@ class RADIANCE_API UOptionsMenuWidget : public UUserWidget
 public:
 	//----------------------------------------------------------------------------------------------------------------------------
 	// Function Name	: SetPreviousAccessedWidget( UUserWidget* pcPreviousAccessedWidget )
-	// Author			: Nikodem Hamrol
+	// Author			: Michalis Stratis
 	// Purpose			: To set the previous accessed widget so that it can correctly go back to that previous widget.
 	//----------------------------------------------------------------------------------------------------------------------------
 	void SetPreviousAccessedWidget( UUserWidget* pcPreviousAccessedWidget );
@@ -89,7 +89,7 @@ protected:
 	//----------------------------------------------------------------------------------------------------------------------------
 	// Function Name	: NativeConstruct() override
 	// Author			: Unreal Engine 4
-	// Editors			: Nikodem Hamrol
+	// Editors			: Michalis Stratis
 	// Purpose			: To intialise the sliders and load the save game file to apply the settings to the UI components
 	//----------------------------------------------------------------------------------------------------------------------------
 	virtual void NativeConstruct() override;
